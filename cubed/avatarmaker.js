@@ -41,13 +41,13 @@ function handleFiles(e) {
       context.drawImage(img, -22, -28, 235, 272);
 
       var outline = new Image();
-      outline.src = ("3wa9d39d2.png");
+      outline.src = ("3wa9d39d2-2.png");
       outline.onload = function (){
         context.drawImage(outline, -22, -28);
       }
 
       var cubedImage = new Image();
-      cubedImage.src = ("3wa9d39d.png");
+      cubedImage.src = ("3wa9d39d-2.png");
       cubedImage.onload = function (){
         context.drawImage(cubedImage, -22, -28);
 
